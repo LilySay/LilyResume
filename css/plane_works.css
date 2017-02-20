@@ -1,0 +1,29 @@
+/*右边区域*/
+.box02{ width:800px; height:100%; overflow:hidden; float:right; /*border:#F00 1px solid;*/}
+
+.box02 h4{ width:100%; margin-top:30px; line-height:30px; border-radius:3px; box-shadow:#FFF 1px 1px 1px; color:#eb2ba5; text-align:center}
+.box02-1{ width:800px; height:533.4px; margin-top:30px; position:relative; overflow:hidden;}
+.box02-1 .imgbox{ width:300px; height:533.4px; float:left; position:absolute; left:-350px; top:0; overflow:hidden;}
+.box02-1 .imgbox2{width:300px; height:533.4px; float:right; position:absolute; right:-350px; top:0; overflow:hidden;}
+.box02-1 .imgbox img,.box02-1 .imgbox2 img{ width:300px; height:533.4px;}
+.box02-1 .imgbox p,.box02-1 .imgbox2 p{ width:300px; height:50px; /*color:#2e2ef2;*/ color:#FFF; line-height:50px; text-align:center; background-color:rgba(0,0,0,0.6); position:absolute; left:0; bottom:-50px; font-size:12px;}
+
+.box02-2{ width:800px; margin-top:30px;position:relative; overflow:hidden;/* border:#F00 1px solid;*/}
+.tea{ width:350px; height:530px; float:left; position:relative; left:-350px; top:60px; overflow:hidden; }
+.tea img{ width:350px; height:530px;}
+.tea p{ width:350px; height:50px; color:#FFF;background-color:rgba(0,0,0,0.6); position:absolute; left:0; bottom:-50px; font-size:12px; line-height:50px; text-align:center;}
+.yu{ width:350px; height:350px; float:right; position:relative; top:0; right:-400px; overflow:hidden; margin-right:50px;}
+.yu p{ position:absolute; left:0; bottom:-50px; width:350px; height:50px; color:#FFF; background-color:rgba(0,0,0,0.6); font-size:12px; line-height:50px; text-align:center;}
+.san{ width:350px; height:350px; float:right; background-color:rgba(255,255,255,0.7); border-radius:10px; position:relative; top:0px; right:-400px; margin-right:50px; overflow:hidden; margin-top:20px;}
+.san p{ width:350px; height:50px; background-color:rgba(0,0,0,0.6); position:absolute; left:0; bottom:-50px; color:#FFF; text-align:center; line-height:50px; font-size:12px;}
+.san:hover{ z-index:1;}
+.box02-3{ width:800px; height:100%; margin-top:-50px; overflow:hidden;}
+.music{ width: 530px; height:350px; float:left; position:relative; top:0px; left:-530px; }
+.music p{ width:530px; height:50px; color:#FFF; background-color:rgba(0,0,0,0.6); position:absolute; left:0; bottom:-50px; font-size:12px; text-align:center; line-height:50px;}
+
+.xpss,.nx{ width:700px; height:100%; float:left;position:relative;overflow:hidden;}
+.xpss img,.nx img{ width:700px;margin-top:30px;}
+.xpss{ float:right; margin-right:50px; top:0; right:-800px;}
+.nx{ float:left; top:0; left:-700px;}
+.xpss p,.nx p{ width:700px; height:30px;  background-color:rgba(0,0,0,0.6); color:#FFF; line-height:30px; position:absolute; left:0; bottom:-30px; font-size:12px;}
+.end{ float:right; margin-top:30px; margin-right:60px; font-size:12px; color:#F2F2F2;}

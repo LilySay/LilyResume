@@ -1,0 +1,24 @@
+/*右边区域*/
+.box02,.web_works{ width:800px; height:100%; overflow:hidden; float:right; margin-top:50px;/*border:#F00 1px solid;*/color:#F2F2F2;font-size: 12px;}
+.box02 h2,.box02 h3,.web_works h2,.web_works h3{ width:100%; margin-top:30px; line-height:30px; border-radius:3px;  color:#eb2ba5; text-align:center;}
+.box02 h2,.web_works h2{box-shadow:#FFF 1px 1px 1px;}
+
+.web_works{font-weight: normal;}
+.web_works .works1{width:95%;margin:0 auto;padding:20px 0;}
+.web_works .works1 a{cursor: pointer;color: #ffffca;}
+.web_works .works1 a:hover{text-decoration: underline;}
+.web_works h3{ border-bottom: 1px dotted #fff; box-shadow:#FFF 0px 1px 0px dotted; }
+
+
+.box02 .menu2{ width:800px; height:100%;/*border:#F00 1px solid;*/}
+.box02 .menu2 h5{width:800px; height:50px; line-height:50px; border-radius:3px; box-shadow:#FFF 1px 1px 1px; color:#dcdcdc; text-align:center;  cursor:pointer; font-size:12px;}
+.box02 .menu2 h5:hover{background-color:rgba(255,255,255,0.6); color:#eb2ba5;}
+.box02 .menu2 a:hover{ color:#eb2ba5;}
+.box02 .h5tm{ background-color:#rgba(255,255,255,0.6);}
+.box02 .douban,.yilong,.YOUNGRY{ position:absolute; left:0; top:0px; width:100%; background-color:rgba(0,0,0,0.9);}
+.box02 .douban img,.yilong img,.YOUNGRY img{ width:1000px; margin:0 auto; margin-top:30px;}
+.box02 .quit{ width:80px;height:30px; position:fixed;right:20px; top:300px; background-color:#eb2ba5; border-radius:10px; overflow:hidden;} 
+.box02 .quit a{ display:block; line-height:30px; text-align:center;}
+.box02 .quit a:hover{ background-color:#CCC; color:#eb2ba5; cursor:pointer;}
+.box02 table{ color:#CCC; font-size:12px; margin-left:500px; margin-top:50px;}
+.box02 .end{ float:right; margin-top:30px; margin-right:60px; font-size:12px; color:#F2F2F2;}

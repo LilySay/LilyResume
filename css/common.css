@@ -1,0 +1,24 @@
+/*返回顶部*/
+.Back_top{width: 30px; height:120px; background-color: #ffa115; position:fixed; z-index: 999; bottom: 30px; right:10px; margin: 0 auto; display: none;}
+.Back_top:hover{background-color: #ff8711;}
+.Back_top .img_icon{width: 30px; height:120px;background-image:url(../images/top.png);background-repeat: no-repeat; background-position: -5px 0px;}
+/*重置*/
+body{ background-image:url(../images/012.jpeg); margin:0;font-family: '微软雅黑'}
+a{ text-decoration:none; color:#FFF; font-size:12px;}
+img{ display:block;}
+h4{ margin:0;}
+h5{ margin:0; font-size:14px; line-height:20px;}
+/*公用样式：左边区域*/
+.first{ width:1202px; background-color:rgba(0,0,0,0.3); margin:0 auto; padding-bottom: 50px; overflow:hidden;}
+.box01{ width:400px; float:left;/* border:#F00 1px solid;*/ position:relative; overflow:hidden;}
+.menubox1{ width:300px; margin-left:auto; margin-right:auto; background-color:#CCC; box-shadow:#000 2px 1px 5px; overflow:hidden;}
+.menubox1 h4{ width:100%; line-height:50px; background-color:rgba(0,0,0,0.3); margin-top:50px; text-align:center; color:#FFF;border-bottom: 1px solid #ccc; box-shadow:#4d4d4d 1px 1px 1px;}
+.menubox1 .tit{font-size:22px;font-weight: bold; color:#fff;}
+.menubox1 img{ display:block; margin-top:30px; width:150px; margin-left:auto; margin-right:auto; border-radius:20%; border:#FFF 5px solid;}
+.menu{ width:300px; margin-top:30px;}
+.menu a{ display:block; text-align:center; line-height:60px; color:#333; border-radius:10px; box-shadow:#666 1px 1px 2px; margin-top:2px;}
+.menu .redcorol{ background-color:#FFF; color:#eb2ba5;}
+.menubox1 p{ font-size:12px; text-align:center; line-height:30px; margin-top:30px;}
+.menubox1 p.kj{padding:0px 18px;text-align:left}
+/*.arrow{ width:50px; height:60px; position:absolute; left:0; top:0; border:#F00 1px solid; margin-left:342px; margin-top:310px;}
+.arrow img{ display:block; margin-top:2px;}*/

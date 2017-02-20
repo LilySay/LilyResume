@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>平面作品</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/plane_works.css">
+<script src="js/jquery.js"></script>
+<script src="js/common.js"></script>
+</head>
+
+<body>
+<!-- 返回顶部 -->
+<div class="Back_top">
+      <div class="img_icon"></div>
+</div>
+
+<div class="first">
+    <!-- 左边菜单 -->
+    <div class="box01">
+        <div class="menubox1">
+             <h4 class="tit">--WEB前端/网页 求职简历--</h4>
+             <img src="images/me3.png">
+             <div class="menu">
+                <a href="first.html">基本资料&gt;&gt;</a>
+                <a class="redcorol"href="fourth.html">前端项目&gt;&gt;</a>
+                <a href="Second.html">平面作品&gt;&gt;</a>
+                <a href="third.html">手绘作品&gt;&gt;</a>
+                <!--<a href="">界面设计&gt;&gt;</a>-->
+                <a href="sixth.html">图标&gt;&gt;</a><br/>
+             </div>
+             <h4>兴趣爱好</h4>
+             <p>唱歌、跳舞、团队活动等。</p>
+             <h4>荣誉</h4>
+             <p>高级UI设计师</p>
+             <p>服装设计三级技能证书</p>
+             <p>服装设计湖北省二等奖</p>
+             <a href="first.html#aa"><h4>自我评价</h4></a>
+             <p class="kj">&nbsp;&nbsp;本人性格开朗、待人热情，有较强的组织能力和团队协作精神,具有一定的设计能力，喜欢绘画。从初中毕业到至今一直在学习，自我提升，谦虚好学，在工作中一定会尽己所能完成好每一项任务。</p>
+             <h4>联系方式</h4>
+             <p>姓名：刘亚利</p>
+             <p>电话:15824535822</p>
+             <p>QQ:547646560</p>
+             <p>Email：15824535822@163.com</p>   
+          </div>
+          <!--<div class="arrow"><img src="images/jiantou.png"></div>-->
+    </div>
+    <!-- 右边菜单 -->
+    <div class="box02">
+        <h4>部分作品展示</h4>
+        <div class="box02-1">
+            <div class="imgbox">
+            	<img src="images/RIO.png">
+               	<p>RIO鸡尾酒海报</p>
+            </div>
+           	<div class="imgbox2">
+            	<img src="images/build.png">
+               	<p>RIO房地产海报</p>
+            </div>
+        </div>
+        <div class="box02-2">
+            <div class="tea">
+            	<img src="images/tea.png">
+                <p>茶文化海报</p>
+            </div>
+            <div class="yu">
+            	<img src="images/yu.png">
+                <p>玉&middot;石之美者</p>
+            </div>
+            <div class="san">
+            	<img src="images/zhesan1.png">
+                <p>折扇</p>
+            </div>
+        </div>
+        <div class="box02-3">
+        	<div class="music">
+        		<img src="images/music.png">
+                <p>音乐海报</p>
+            </div>
+        </div>
+        <div class="xpss">
+    		<img src="images/lsfs.png">
+            <p>&nbsp;&nbsp;丽尚服饰</p>
+    	</div>
+      
+        <div class="nx">
+        	<img src="images/lx.png">
+            <p>&nbsp;&nbsp;《暖心》书籍封面</p>
+        </div>
+        <div class="end">在 此 特 别 感 谢 您 的 耐 心 阅 读!</div>
+    </div>
+    
+    
+</div>
+
+<script>
+
+$(".menu a").mouseenter(function(){
+	$(this).addClass("redcorol").siblings().removeClass("redcorol");
+	})
+$(".box01 h4").hide();
+$(".box01 h4").fadeIn(2000);
+
+$(".imgbox").animate({left:50+"px"},1000,function(){
+	$(".tea").animate({left:0+"px"},1000,function(){
+		$(".yu").animate({right:0+"px"},1000,function(){
+			$(".san").animate({right:0+"px"},1000,function(){
+				$(".music").animate({left:0+"px"},1000,function(){
+					$(".xpss").animate({right:0+"px"},1000,function(){
+						$(".nx").animate({left:0+"px"},1000)
+						})
+					})
+				})
+			})
+		});
+	});
+$(".imgbox").mouseenter( function(){
+	$(".imgbox p").animate({bottom:0},500);
+	}).mouseleave(function(){
+		$(".imgbox p").animate({bottom:-50+"px"},500);
+		})
+$(".imgbox2").animate({right:100+"px"},1000);
+$(".imgbox2").mouseenter( function(){
+	$(".imgbox2 p").animate({bottom:0+"px"},500);
+	}).mouseleave(function(){
+		$(".imgbox2 p").animate({bottom:-50+"px"},500);
+		})
+
+$(".tea").mouseenter(function(){
+	$(".tea p").animate({bottom:0+"px"});
+	}).mouseleave(function(){
+		$(".tea p").animate({bottom:-50+"px"},500);
+		})
+
+$(".yu").mouseenter(function(){
+	$(".yu p").animate({bottom:0+"px"},500);
+	}).mouseleave(function(){
+		$(".yu p").animate({bottom:-50+"px"},500);
+		})
+$(".san").mouseenter(function(){
+	$(".san p").animate({bottom:0+"px"},500);
+	}).mouseleave(function(){
+		$(".san p").animate({bottom:-50+"px"},500);
+		})
+$(".music").mouseenter(function(){
+	$(".music p").animate({bottom:0+"px"},500);
+	}).mouseleave(function(){
+		$(".music p").animate({bottom:-50+"px"},500);
+		})
+$(".xpss").mouseenter(function(){
+	$(".xpss p").animate({bottom:0+"px"},500);
+	}).mouseleave(function(){
+		$(".xpss p").animate({bottom:-30+"px"},500);
+		})
+$(".nx").mouseenter(function(){
+	$(".nx p").animate({bottom:0+"px"},500);
+	}).mouseleave(function(){
+		$(".nx p").animate({bottom:-30+"px"},500);
+		})
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/*content*/
+
+/*右边区域*/
+.right{ width:800px;float:right; /*border:#F00 1px solid;*/ overflow:hidden;}
+.right h4{ width:80px; margin-top:30px; line-height:30px; border-radius:3px; box-shadow:#FFF 1px 1px 1px; color:#fff; text-align:center}
+table{border:0px solid #fff; border-collapse: collapse;}
+.table1{ width:90%;margin:30px; color:#CCC; font-size:12px; line-height:20px;border-collapse: collapse;border-radius: 3px;background-color: rgba(225,225,225,0.05);}
+.table1 tr,.table1,td{border:1px solid rgba(225,225,225,0.2);}
+.table1,td{padding:8px 5px;}
+.table1 span{padding-left:60px;}
+.Job-wanted{margin-left:35px; margin-top:20px; line-height:20px; position:relative; left:1000px; }
+.Job-wanted a{color:#CCC;}
+.logobox{ width:100%; margin-top:30px; box-shadow:#333 1px 1px 2px; border-bottom:#e0e0e0 1px solid; position:relative;right:1000px; overflow:hidden;}
+.logobox :last-child{padding-bottom: 30px;}
+.Percent{ width:100px; float:left; margin-left:25px; margin-right:25px; margin-bottom:20px;}
+.Percent a{ display:block; text-align:center; line-height:20px; font-size:16px; margin-top:10px;}
+.Education{ width:100%; margin-top:30px; position:relative; left:1000px;}
+.Education a{ display:block; line-height:20px; margin-left:30px; color:#CCC;}
+.table2{ width:80%; margin-left:30px; color:#CCC; font-size:12px; line-height:20px; margin-top:20px;}
+.right h5{color:#CCC;}
+.right h6{ color:#CCC; margin:0; margin-top:20px; margin-left:20px;}
+.right h6 a.imp{color: #eb2ba5; font-weight:normal;}
+.right h6 a.imp:hover{text-decoration: underline;}
+.right p{ width:700px; margin:0; color:#CCC; font-size:12px; margin-top:5px; margin-left:30px; text-indent:24px; line-height:20px;}
+.end{ float:right; margin-top:30px; margin-right:60px; font-size:12px; color:#F2F2F2;}
